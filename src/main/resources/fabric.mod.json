@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "nukenshire-creepers",
+  "version": "${version}",
+  "name": "Nukenshire Creepers",
+  "description": "",
+  "authors": [
+    "Nex"
+  ],
+  "contact": {
+    "repo": "https://github.com/CyanNex/NukenshireCreepers"
+  },
+  "license": "MIT",
+  "icon": "assets/nukenshire-creepers/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "me.nex.nukenshirecreepers.NukenshireCreepers"
+    ]
+  },
+  "mixins": [
+    "nukenshire-creepers.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.13.3",
+    "fabric": "*",
+    "minecraft": "1.18.2"
+  }
+}
